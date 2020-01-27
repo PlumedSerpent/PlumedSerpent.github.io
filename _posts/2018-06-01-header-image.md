@@ -1,6 +1,6 @@
 ---
-title: Post with Header Image
-tags: TeXt
+title: 人群计数论文解读之《Single-Image Crowd Counting via Multi-Column Convolutional Neural Network》
+tags: Crowd Counting
 article_header:
   type: cover
   image:
