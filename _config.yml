@@ -121,8 +121,11 @@ sharing:
 comments:
   provider: valine # false (default), "disqus", "gitalk", "valine", "custom"
   valine:
-    app_id  : j4q5jIa1tNJtaiG8QcnMbF21-gzGzoHsz
-    app_key : 9R2CMqeINv3cXdlKraipCfCR
+    app_id    : j4q5jIa1tNJtaiG8QcnMbF21-gzGzoHsz
+    app_key   : 9R2CMqeINv3cXdlKraipCfCR
+    placeholder : 你的观点 # Prompt information
+    visitor     : # false (default)
+    meta        : # "[nick, mail, link]" (default) nickname, E-mail, Personal-site
   ## Disqus
   disqus:
     shortname: CV点滴# the Disqus shortname for the site
