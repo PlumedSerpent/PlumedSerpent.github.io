@@ -119,8 +119,10 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: disqus # false (default), "disqus", "gitalk", "valine", "custom"
-
+  provider: valine # false (default), "disqus", "gitalk", "valine", "custom"
+  valine:
+    app_id  : j4q5jIa1tNJtaiG8QcnMbF21-gzGzoHsz
+    app_key : 9R2CMqeINv3cXdlKraipCfCR
   ## Disqus
   disqus:
     shortname: CV点滴# the Disqus shortname for the site
@@ -150,9 +152,9 @@ comments:
 pageview:
   provider: leancloud
   leancloud:
-    app_id    : "j4q5jIa1tNJtaiG8QcnMbF21-gzGzoHsz"
-    app_key   : "9R2CMqeINv3cXdlKraipCfCR"
-    app_class : "blog"
+    app_id    : j4q5jIa1tNJtaiG8QcnMbF21-gzGzoHsz
+    app_key   : 9R2CMqeINv3cXdlKraipCfCR
+    app_class : blog
 
 
 ## => Search
