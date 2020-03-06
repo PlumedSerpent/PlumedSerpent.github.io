@@ -1,19 +1,19 @@
 ---
-title: 人群计数论文解读之《Switching Convolutional Neural Network for Crowd Counting》
-tags: [CrowdCounting,Switch-CNN]
-key : switch-cnn
+title: 人群计数论文解读之《CSRNet： Dilated Convolutional Neural Networks for Understanding the Highly Congested Scene》
+tags: CrowdCounting
+key : csrnet
 pageview: true
 sharing: true
 comment: true
 article_header:
   type: cover
   image:
-    src: /cover/SWITCH-CNN.png
+    src: /cover/CSRNet.png
 
 ---
 
 > ## 前言
->本篇博客介绍CVPR2018发表的论文 [CSRNet](http://www.zpascal.net/cvpr2018/Li_CSRNet_Dilated_Convolutional_CVPR_2018_paper.pdf)。
+>本篇博客介绍的工作来源于上海科技大学在CVPR2016发表的论文 [MCNN](https://zpascal.net/cvpr2016/Zhang_Single-Image_Crowd_Counting_CVPR_2016_paper.pdf)。这是将深度学习应用于人群计数的早期工作之一。
 <!--more-->
 虽然网络结构比较简单，但是适合作为我们进入人群计数领域的基础工作，在这里推荐一个基于pytorch框架的简洁开源实现[Github](https://github.com/CommissarMa/MCNN-pytorch)，建议对照学习。
 注：正文包括笔者对原论文的翻译和自己的理解，请读者注意区分人称。
