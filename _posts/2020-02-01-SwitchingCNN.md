@@ -13,7 +13,7 @@ article_header:
 ---
 
 > ## 前言
->本篇博客介绍CVPR2018发表的论文 [CSRNet](http://www.zpascal.net/cvpr2018/Li_CSRNet_Dilated_Convolutional_CVPR_2018_paper.pdf)。
+>本篇博客介绍CVPR2017发表的论文 [Switch-CNN](http://www.zpascal.net/cvpr2018/Li_CSRNet_Dilated_Convolutional_CVPR_2018_paper.pdf)。
 <!--more-->
 虽然网络结构比较简单，但是适合作为我们进入人群计数领域的基础工作，在这里推荐一个基于pytorch框架的简洁开源实现[Github](https://github.com/CommissarMa/MCNN-pytorch)，建议对照学习。
 注：正文包括笔者对原论文的翻译和自己的理解，请读者注意区分人称。
