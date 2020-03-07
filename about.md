@@ -1,74 +1,60 @@
----
-layout: article
-titles:
-  # @start locale config
-  en      : &EN       About
-  en-GB   : *EN
-  en-US   : *EN
-  en-CA   : *EN
-  en-AU   : *EN
-  zh-Hans : &ZH_HANS  关于
-  zh      : *ZH_HANS
-  zh-CN   : *ZH_HANS
-  zh-SG   : *ZH_HANS
-  zh-Hant : &ZH_HANT  關於
-  zh-TW   : *ZH_HANT
-  zh-HK   : *ZH_HANT
-  ko      : &KO       소개
-  ko-KR   : *KO
-  fr      : &KO       À propos
-  fr-BE   : *FR
-  fr-CA   : *FR
-  fr-CH   : *FR
-  fr-FR   : *FR
-  fr-LU   : *FR
-  # @end locale config
-key: page-about
----
+ <center>
+     <h1>XXX</h1>
+     <div>
+         <span>
+             <img src="assets/phone-solid.svg" width="18px">
+             15800727260
+         </span>
+         ·
+         <span>
+             <img src="assets/envelope-solid.svg" width="18px">
+             sjtuwangjian@qq.com
+         </span>
+         ·
+         <span>
+             <img src="assets/github-brands.svg" width="18px">
+             <a href="https://github.com/PlumedSerpent">PlumedSerpent</a>
+         </span>
+         ·
+         <span>
+             <img src="assets/rss-solid.svg" width="18px">
+             <a href="#">My Blog</a>
+         </span>
+     </div>
+ </center>
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+ ## <img src="assets/info-circle-solid.svg" width="30px"> 个人信息 
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+ - 男，1996 年出生
+ - 求职意向：Java 研发工程师
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
+## <img src="assets/graduation-cap-solid.svg" width="30px"> 教育经历
 
-## Features
+- 硕士，上海交通大学，计算机技术专业，2018.9~2021.3
+- 学士，上海交通大学，IEEE试点班，计算机科学与技术专业，2014.9~2018.7
+- 研究方向:人脸识别，人脸关键点检测，2D姿态估计，人群计数
+- CET4/6
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+## <img src="assets/briefcase-solid.svg" width="30px"> 工作经历 Work Experience
 
-## Skins
+- 华为技术有限公司上海研究所，云核心网NFV研究部，算法实习生，2018.7~2019.3
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+   负责 安防场景下人脸识别在线学习算法研究
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
+## <img src="assets/project-diagram-solid.svg" width="30px"> 项目经历 Project Experience
 
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
+- **XXXX 项目**
 
-### Highlight Theme
+  *使用到的技术*
 
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
+  使用一两句话描述项目的主要功能，然后介绍自己在项目中的角色，解决了什么问题，使用什么方式解决，比别人的方法相比有什么优势（尽量用数据来说明）。
 
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+## <img src="assets/tools-solid.svg" width="30px"> 技能清单Skills
+
+- ★★★ Python
+- ★★☆ C++、Python
+- ★★★ MySQL
+- ★★★ Redis
+- ★★☆ Spring
+- ★☆☆ RabbitMQ、ZooKeeper
+- ★★☆ JavaScript
