@@ -1,5 +1,11 @@
+---
+key : resume
+pageview: true
+sharing: true
+comment: false
+---
  <center>
-     <h1>XXX</h1>
+     <h1>王健 Wang Jian</h1>
      <div>
          <span>
              <img src="assets/phone-solid.svg" width="18px">
@@ -26,7 +32,7 @@
  ## <img src="assets/info-circle-solid.svg" width="30px"> 个人信息 
 
  - 男，1996 年出生
- - 求职意向：Java 研发工程师
+ - 求职意向：计算机视觉算法研究与开发
 
 ## <img src="assets/graduation-cap-solid.svg" width="30px"> 教育经历
 
