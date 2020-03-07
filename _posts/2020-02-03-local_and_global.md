@@ -37,7 +37,7 @@ article_header:
 
 ![局部计数的定义](/postimages/LocalGlobal/receptive_field.png)
 
-如图，GoogleLeNet的感受野是139，也就是说在输出的$1024 \times 20 \times 15$的特征中，每个位置对应了原图$139 \times 139$的区域，但作者让其对应至这个区域中心$ 100 \times 100 $的计数。
+如图，GoogleLeNet的感受野是139，也就是说在输出的$1024 \times 20 \times 15$的特征中，每个位置对应了原图$139 \times 139$的区域，但作者让其对应至这个区域中心$100\times100$的计数。
 
   
 
