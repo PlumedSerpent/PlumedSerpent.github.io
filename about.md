@@ -57,10 +57,5 @@ comment: false
 
 ## <img src="assets/tools-solid.svg" width="30px"> 技能清单Skills
 
-- ★★★ Python
-- ★★☆ C++、Python
-- ★★★ MySQL
-- ★★★ Redis
-- ★★☆ Spring
-- ★☆☆ RabbitMQ、ZooKeeper
-- ★★☆ JavaScript
+- ★★★ Python、pytorch、MXNet
+- ★★☆ C++、TensorFlow
