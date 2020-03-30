@@ -5,10 +5,7 @@ key : switch-cnn
 pageview: true
 sharing: true
 comment: true
-article_header:
-  type: cover
-  image:
-    src: /cover/SWITCH-CNN.png
+
 
 ---
 
