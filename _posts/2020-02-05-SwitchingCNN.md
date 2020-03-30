@@ -41,9 +41,11 @@ article_header:
 ![图1 Switch-CNN网络结构](/postimages/Switch/arch.png)
 
 >关于这个网络结构，有一个令人疑惑的地方是这个Switch Layer到底是什么东西。我check了一下官方代码，感觉就是一个argmin用来选择loss反传？其余部分的结构可参见原文，没什么值得特别说明的。
+
 ### GT生成
 与MCNN相同。
 整个网络训练分为三个过程，预训练（Pretraining）、差异训练（differential training）、耦合训练（coupled training）。
+
 ### 预训练
 
 独立地预训练三个回归器，用L2 Loss，每个回归器都用全部数据训练。
@@ -54,7 +56,9 @@ article_header:
 ### 耦合训练
 
 这个阶段主要是为了训练切换分类器。又分为两个步骤。切换器训练和switched differential training。具体来讲，首先根据差异训练得到的回归器，生成切换分类器所需要的label，对每一个patch, 如果回归器i的预测误差最小，那么该patch的密度分类为i。但是这样的label对与分类器很难学习（因为所谓不同回归器负责不同密度的patch是我们一厢情愿的假设，实际上每个回归器究竟对哪些样本有bias是我们不知道的，也是分类器不知道的，因此很难分类。因而，本文提出让回归器和分类器一起训练，也就是根据分类器的结果，将给定patch分发给分类器所决定的回归器，并根据loss更新这个回归器。如下图算法图所示：在每一个epoch里，先独立训练分类器一轮（注意是一轮而不是一个step），再根据训练之后的分类器的预测结果分发patch，进而计算loss，更新对应的回归器。然后回归器重新产生密度的分类label，进入下一轮。周而复始。
+
 ![训练算法](/postimages/Switch/algo.png)
+
 另外为了克服样本不均衡，对分类样本少的类别，随机采样多次，使得数量均衡，看代码：
 
 ``` Python
