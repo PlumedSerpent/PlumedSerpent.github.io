@@ -58,7 +58,7 @@ comment: true
 
 另外为了克服样本不均衡，对分类样本少的类别，随机采样多次，使得数量均衡，看代码：
 
-``` Python
+``` python
 num_files_per_class = max([len(ds) for ds in data])
 #获取样本最多的类别的样本数
 train_data = []
