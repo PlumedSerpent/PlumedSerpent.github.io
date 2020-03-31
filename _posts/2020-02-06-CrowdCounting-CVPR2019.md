@@ -77,6 +77,6 @@ PPT下载地址：[CrowdCounting.pptx](/attachments/CrowdCounting_CVPR2019.pptx)
 #### TEDNet (Trellis Encoder-Decoder Networks)
 
 - Spatial Abstraction Loss ： 将密度图池化到不同尺度，计算L2 损失。
--  Spatial Abstraction Loss ： 对密度图与GT计算互相关。
+- Spatial Abstraction Loss ： 对密度图与GT计算互相关。
 
 #### 
