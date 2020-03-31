@@ -24,6 +24,7 @@ comment: false
   - 数据 Data and Unsupervised Learning
   - 损失函数 Loss Function
 
+PPT下载地址：[CrowdCounting.pptx](/attachments/CrowdCounting_CVPR2019.pptx)
 下面我依次简要介绍这12篇论文，具体的论文解读请看后续博客。
 
 ## 网络改进
@@ -70,3 +71,12 @@ comment: false
 #### Leveraging Heterogeneous Auxiliary Tasks to Assist Crowd Counting
 
 用GTA5游戏引擎生成仿真数据增强数据集。
+
+## 损失函数
+
+#### TEDNet (Trellis Encoder-Decoder Networks)
+
+- Spatial Abstraction Loss ： 将密度图池化到不同尺度，计算L2 损失。
+-  Spatial Abstraction Loss ： 对密度图与GT计算互相关。
+
+#### 
